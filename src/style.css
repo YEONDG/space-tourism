@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: b;
+}
+body {
+    font-family: 'Bellefair', serif;
+    font-family: 'Black Han Sans', sans-serif;
+    background-image: url("../starter-code/assets/home/background-home-desktop.jpg")
+}
+
+.nav {
+    display: flex;
+}
+
+.main-text{
+    position: absolute;
+    width: 450px;
+    height: 382px;
+    left: 165px;
+    top: 387px;
+    font-family: 'Bellefair', serif;
+}
+
+.main-h2 {
+    height: 172px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 172px/2 - 47px);
+    
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    
+    color: #FFFFFF;   
+}
+.main-text-header {
+    height: 34px;
+left: 0%;
+right: 14.83%;
+top: calc(50% - 34px/2 - 174px);
+
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 4.725px;
+
+color: #D0D6F9;
+}
+.main-text-p {
+    height: 128px;
+    left: 0%;
+    right: 0.22%;
+    top: calc(50% - 128px/2 + 127px);
+    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    color: #D0D6F9;
+}
+.explore {
+    position: absolute;
+    height: 37px;
+    left: 22.63%;
+    right: 23.36%;
+    top: calc(50% - 37px/2 + 0.5px);
+    
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 2px;
+    
+    color: #0B0D17;
+
+}
+.explore-circle {    
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 1001px;
+    top: 495px;
+    background-color: white;
+    border-radius: 100%;
+   
+  
+}
+.explore {
+   position: absolute;
+height: 37px;
+left: 22.63%;
+right: 23.36%;
+top: calc(50% - 37px/2 + 0.5px);
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #0B0D17;
+}
