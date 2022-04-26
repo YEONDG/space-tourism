@@ -5,24 +5,72 @@
     font-family: b;
 }
 html {
+    background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-size: 2440px;
     font-size : 10px;
 }
 
 body {
-    height: 100vh;
     font-family: 'Bellefair', serif;
     font-family: 'Black Han Sans', sans-serif;
-    background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
-    background-repeat : no-repeat;
-    background-size : cover;
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+    
 }
-
+/* 네비게이션 바 css */
 .nav {
+    width: 100%;
+    height: 9.6rem;
+    margin-top: 4rem;
+    /* background-color: white; */
     display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
+.logo-img{  
+    width: 4.8rem;
+    margin: 6rem;
+}
+.line {
+    display: flex;
+    align-items: center;
+    background-color: #0B0D17;
+    width: 47rem;
+    height: 2px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 83rem;
+    background-color: blue;
+}
+
+li{ 
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    color: #FFFFFF;
+    margin: auto 2rem ;
+}
+.nav-tech {
+    margin-right: 10rem;
+}
+
+
+
+
+
+
+/* main */
 .main-text{
-    position: absolute;
+    position: relative;
     width: 45rem;
     height: 38.2rem;
     left: 16.5rem;
@@ -76,7 +124,7 @@ color: #D0D6F9;
     color: #D0D6F9;
 }
 .explore {
-    position: absolute;
+    position: relative;
     height: 37px;
     left: 22.63%;
     right: 23.36%;
@@ -124,6 +172,5 @@ letter-spacing: 2px;
 color: #0B0D17;
 }
 
-@media ( max-width: 768px ) {
-    body { color: red; }
+@media ( max-width: 1440px ) {
   }
